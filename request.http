@@ -1,0 +1,30 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Juanchito",
+    "email": "Juanchito@gmail.com",
+    "password": "Megustaelcoco"
+}
+
+
+###
+GET http://localhost:3000/api/users HTTP/1.1
+
+###
+GET http://localhost:3000/api/users/6663af9ab1f219d79ce6b7aa HTTP/1.1
+
+###
+PUT http://localhost:3000/api/users/66651a5be0011aa423ba3c76 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Juan",
+    "email": "JuanchitoBoca@gmail.com",
+    "password": "123456789"
+}
+
+###
+DELETE http://localhost:3000/api/users/667b97b0f13b92337a5b8756 HTTP/1.1
+
